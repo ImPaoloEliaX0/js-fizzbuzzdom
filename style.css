@@ -1,0 +1,59 @@
+ /*Generiche*/
+ 
+ 
+ *{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #073b4c;
+}
+
+ /*Specifiche*/
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: #fff;
+    
+}
+
+#container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boxblue {
+    display: flex;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #118ab2;
+}
+
+.boxyellow {
+    display: flex;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #9ab211;
+}
+
+.boxred {
+    display: flex;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #b21111;
+}
