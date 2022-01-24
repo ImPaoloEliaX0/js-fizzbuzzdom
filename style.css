@@ -28,7 +28,7 @@ h1 {
     flex-wrap: wrap;
 }
 
-.boxblue {
+.box {
     display: flex;
     width: 90px;
     height: 90px;
@@ -38,22 +38,16 @@ h1 {
     background-color: #118ab2;
 }
 
-.boxyellow {
-    display: flex;
-    width: 90px;
-    height: 90px;
-    margin: 10px;
-    align-items: center;
-    justify-content: center;
-    background-color: #9ab211;
+/*REGOLE PER GESTIONE COLORI*/
+
+.green {
+    background-color: green;
 }
 
-.boxred {
-    display: flex;
-    width: 90px;
-    height: 90px;
-    margin: 10px;
-    align-items: center;
-    justify-content: center;
-    background-color: #b21111;
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
 }
